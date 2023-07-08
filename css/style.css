@@ -198,3 +198,77 @@ font-weight: 700;
 line-height: normal;
 text-decoration-line: underline;
 }
+/*
+ * Section =  PEOPLE SOCIETY========================================Header===============header
+ */
+.people_society {
+    background-color: #CCCCCC4D;
+}
+.people_society__container {
+    max-width: 1164px;
+    margin: auto;
+    display: flex;
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.people_society__img{
+    margin-right: 50px;
+}
+.people_society__img img {
+    display: block;
+}
+.people_society__text {
+    padding-right: 100px;
+}
+.people_society__text h3{
+    color: #000;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 63px;
+margin-bottom: 31px;
+}
+.people_society__text p {
+    color: #000;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+.people_society__text a{
+    color: #000;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+/*
+ * Section =  CULTURE HERITAGE========================================Header===============header
+ */
+ .culture_heritage{
+    background-color: #CCCCCC99;
+ }
+ .culture_heritage_container{
+    flex-direction: row-reverse;
+ }
+ .culture_heritage_img{
+    padding-right: 100px;
+    margin-bottom: 0;
+ }
+ .culture_heritage_text{
+    padding-right: 0;
+    margin-right: 50px;
+ }
+ /*
+ * Section =  POWER POLITICS========================================Header===============header
+ */
+ .power_politics{
+    background-color: #CCCCCC4D;
+ }
