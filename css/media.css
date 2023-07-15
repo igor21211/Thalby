@@ -1,4 +1,9 @@
-
+@media(max-width: 1380px) {
+  .fall_deeper__image img{
+    position: none;
+    right: 0px;
+}
+}
 @media(max-width: 1266px) {
     .fall_deeper__text{
         padding: 0px 10px;
@@ -40,6 +45,9 @@
 }
 
 @media(max-width: 750px) {
+  .fall_deeper__image img{
+    width: 100%;
+}
     .icon_container{
         z-index: 3;
     }

@@ -64,7 +64,8 @@ header{
 }
 .fall_deeper__image img{
     display: block;
-    width: 100%;
+    position: relative;
+    right: -170px;
 }
 .fall_deeper__text h2{
 color: #000;
