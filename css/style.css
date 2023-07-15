@@ -533,8 +533,8 @@ font-weight: 400;
 line-height: 23.1px; /* 165% */
 margin-bottom: 36px;
 }
-.about_contact__about ul{
-    
+.about_contact__about{
+    margin-right: 72px;
 }
 footer li{
     color: #FFF;
