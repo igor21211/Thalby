@@ -43,7 +43,7 @@ header{
     color: tomato;
 }
 /*
- * Section =  FALL DEEPER  ========================================Header===============header
+ * Section =  FALL DEEPER  ========================================Section===============header
  */
  .fall_deeper {
     background-color: #F0EFEB;
@@ -101,7 +101,7 @@ background: #000;
     background-color: #fff;
 }
 /*
- * Section =  GUIDES EXPLAIN========================================Header===============header
+ * Section =  GUIDES EXPLAIN========================================Section===============header
  */
 
 .guides_explain {
@@ -138,7 +138,7 @@ margin-bottom: 47px;
 padding: 0px 15px;
 }
 /*
- * Section =  BEST SELLERS========================================Header===============header
+ * Section =  BEST SELLERS========================================Section===============header
  */
 
 .best_sellers {
@@ -166,13 +166,12 @@ line-height: normal;
 .best_sellers__items {
     display: flex;
     justify-content: space-between;
+    
 }
 .best_sellers__item{
     text-align: center;
 }
 .best_sellers__item img{
-    display: block;
-    width: 100%;
     margin-bottom: 27px;
 }
 .best_sellers__item h4 {
@@ -203,7 +202,7 @@ line-height: normal;
 text-decoration-line: underline;
 }
 /*
- * Section =  PEOPLE SOCIETY========================================Header===============header
+ * Section =  PEOPLE SOCIETY========================================Section===============header
  */
 .people_society {
     background-color: #CCCCCC4D;
@@ -214,6 +213,7 @@ text-decoration-line: underline;
     display: flex;
     padding-top: 76px;
     padding-bottom: 51px;
+    flex-wrap: wrap;
 }
 .people_society__img{
     margin-right: 50px;
@@ -222,7 +222,7 @@ text-decoration-line: underline;
     display: block;
 }
 .people_society__text {
-    padding-right: 100px;
+    max-width: 498px;
 }
 .people_society__text h3{
     color: #000;
@@ -254,7 +254,7 @@ text-decoration-line: underline;
 }
 
 /*
- * Section =  CULTURE HERITAGE========================================Header===============header
+ * Section =  CULTURE HERITAGE========================================Section===============header
  */
  .culture_heritage{
     background-color: #CCCCCC99;
@@ -263,16 +263,309 @@ text-decoration-line: underline;
     flex-direction: row-reverse;
  }
  .culture_heritage_img{
-    padding-right: 100px;
-    margin-bottom: 0;
+    margin-right: 0px;
+    margin-left: 50px;
  }
  .culture_heritage_text{
     padding-right: 0;
     margin-right: 50px;
  }
  /*
- * Section =  POWER POLITICS========================================Header===============header
+ * Section =  POWER POLITICS========================================Section===============header
  */
  .power_politics{
     background-color: #CCCCCC4D;
  }
+/*
+ * Section =  SOME OF THE FEATURES========================================Section===============header
+ */
+ .some_of_the_features {
+}
+.some_of_the_features__container {
+    padding-top: 190px;
+    padding-bottom: 164px;
+    max-width: 1088px;
+    margin: auto;
+}
+.some_of_the_features__container h4{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-bottom: 69px;
+}
+.some_of_the_features__items{
+    display: flex;
+    margin-bottom: 111px;
+}
+.some_of_the_features__item {
+    width: 33%;
+}
+.some_of_the_features__item p{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.some_of_the_features__item::before{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-color: #21F7EC;
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+.some_of_the_features__item:nth-child(2)::before{
+    background-color: #33D3BC;
+}
+.some_of_the_features__item:nth-child(3)::before{
+    background-color: #18A5C6;
+}
+.two .some_of_the_features__item:nth-child(1)::before{
+    background-color: #D38F62;
+}
+.two .some_of_the_features__item:nth-child(2)::before{
+    background-color: #F94C43;
+}
+.two .some_of_the_features__item:nth-child(3)::before{
+    background-color: #D399FF;
+}
+
+/*
+ * Section =  THALBY GUIDES========================================Section===============header
+ */
+ .thalby_guides {
+    background: linear-gradient(
+        to bottom,
+        #fff 50%,
+        #CCCCCC4D 50%
+    );
+}
+.thalby_guides__container {
+    padding-bottom: 52px;
+    max-width: 1164px;
+    margin: auto;
+}
+.thalby_guides__text h3{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 102px;
+}
+.thalby_guides__items {
+    display: flex;
+    justify-content: space-between;
+}
+.thalby_guides__item_text{
+    max-width: 272px;
+    text-align: center;
+}
+.thalby_guides__item img {
+   margin-bottom: 35px;
+}
+.thalby_guides__item_text h5{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 40px;
+}
+.thalby_guides__item_text p{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 44px;
+}
+.thalby_guides__item_text a{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+/*
+ * Section =  KEEP INT TOUCH========================================Section===============header
+ */
+ .keep_in_touch {
+}
+.keep_in_touch__container {
+    max-width: 570px;
+    margin: auto;
+    padding-top: 79px;
+    padding-bottom: 86px;
+}
+.keep_in_touch__container h3{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.keep_in_touch__container p{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+margin-bottom: 26px;
+}
+.keep_in_touch__from{
+ max-width: 366px;
+ margin: auto;   
+ 
+}
+.input_text_f_name_l_name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.input_text_f_name_l_name input{
+    width: 153px;
+    height: 39px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    padding: 10px 10px;
+    color: #A0A0A0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input_text_email input{
+    width: 366px;
+height: 39px;
+flex-shrink: 0;
+border: 1px solid #000;
+padding: 10px 10px;
+margin-bottom: 23px;
+color: #A0A0A0;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.keep_in_touch__from_button{
+   display: flex;
+   justify-content: center;
+}
+.keep_in_touch__from_button a{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 23px 9px 23px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #000;
+}
+.keep_in_touch__from_button a:hover{
+    color: #000;
+    background-color: #fff;
+}
+/*
+ * Section =  FOOTER========================================FOOTER===============header
+ */
+footer{
+    background-color: #000;
+}
+.footer__container{
+    padding-top: 51px;
+    padding-bottom: 5px;
+    max-width: 1144px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_and_social_items {
+}
+.logo_and_social_items__logo {
+    margin-bottom: 25px;
+}
+.logo_and_social_items__social ul{
+    display: flex;
+    gap: 20px;
+}
+.about_contact__container {
+    display: flex;
+
+}
+h5 {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.1px; /* 165% */
+margin-bottom: 36px;
+}
+.about_contact__about ul{
+    
+}
+footer li{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+.about_contact__about li:not(:last-child){
+    margin-bottom: 12px;
+}
+.about_contact__about li:last-child{
+    margin-bottom: 15px;
+}
+.about_contact__contact li:not(:last-child){
+    margin-bottom: 12px;
+}
+.about_contact__contact {
+}
+.footer_year {
+    padding-bottom: 16px;
+}
+.footer_year p{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.1px; /* 165% */
+}
+footer li a:hover{
+    text-decoration: underline;
+}
