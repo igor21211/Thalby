@@ -249,6 +249,9 @@
     .about_contact__about{
       margin-right: 52px;
   }
+  .logo_and_social_items__logo{
+    margin-right: 15px;
+  }
 }
 @media(max-width: 377px){
   .input_text_email{
