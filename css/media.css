@@ -1,4 +1,9 @@
-
+@media(max-width: 1380px) {
+  .fall_deeper__image img{
+    position: none;
+    right: 0px;
+}
+}
 @media(max-width: 1266px) {
     .fall_deeper__text{
         padding: 0px 10px;
@@ -37,9 +42,16 @@
   flex-direction: column;
   align-items: center;
 }
+.people_society__text{
+  text-align: center;
+}
 }
 
 @media(max-width: 750px) {
+  
+  .fall_deeper__image img{
+    width: 100%;
+}
     .icon_container{
         z-index: 3;
     }
@@ -238,6 +250,12 @@
     {
       width: 350px;
     }
+    .about_contact__about{
+      margin-right: 52px;
+  }
+  .logo_and_social_items__logo{
+    margin-right: 15px;
+  }
 }
 @media(max-width: 377px){
   .input_text_email{
@@ -249,6 +267,9 @@
   }
   .input_text_f_name_l_name {
    justify-content: center;
+}
+.about_contact__about{
+  margin-right: 32px;
 }
 }
 @media(max-width: 320px){
