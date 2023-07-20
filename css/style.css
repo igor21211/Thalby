@@ -22,9 +22,6 @@ header{
 .menuToggle input span{
     display: none;
 }
-.menu{
-    display: flex;
-}
 .menu li{
     color: #1C1B1B;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -510,8 +507,6 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.logo_and_social_items {
-}
 .logo_and_social_items__logo {
     margin-bottom: 25px;
 }
@@ -521,7 +516,6 @@ footer{
 }
 .about_contact__container {
     display: flex;
-
 }
 h5 {
     color: #FFF;
@@ -531,9 +525,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 23.1px; /* 165% */
 margin-bottom: 36px;
-}
-.about_contact__about ul{
-    
 }
 footer li{
     color: #FFF;

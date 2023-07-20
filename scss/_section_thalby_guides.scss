@@ -1,0 +1,67 @@
+.thalby_guides {
+    background: linear-gradient(
+        to bottom,
+        #fff 50%,
+        #CCCCCC4D 50%
+    );
+
+    .thalby_guides__container {
+        padding-bottom: 52px;
+        max-width: 1164px;
+        margin: auto;
+    }
+    .thalby_guides__text{
+        h3{
+            color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 102px;
+        }
+    }
+    .thalby_guides__items {
+        display: flex;
+        justify-content: space-between;
+        .thalby_guides__item_text{
+            max-width: 272px;
+            text-align: center;
+            img {
+                margin-bottom: 35px;
+             }
+             h5{
+                color: #000;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.6px;
+            margin-bottom: 40px;
+            }
+            p{
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 44px;
+            }
+            a{
+                color: #000;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
